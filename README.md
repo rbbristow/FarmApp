@@ -1,7 +1,7 @@
 # FarmApp
 An app to make farming easier!
 
-In the project directory, you can run:
+In the "farmapp" directory, you can run:
 
 ### `npm start`
 
