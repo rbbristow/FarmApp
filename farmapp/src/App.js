@@ -1,15 +1,17 @@
 import logo from './favicon.png';
-import './App.css';
+import './Stylesheet.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to the farming app.
-        </p>
-      </header>
+      <div className="Title">
+        <div>
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
+        <div>
+              The farming app
+        </div>
+      </div>
     </div>
   );
 }

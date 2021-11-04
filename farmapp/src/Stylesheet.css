@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.Title {
+  display: flex;
+  text-align: left;
+  font-size: large;
 }
 
 .App-logo {
@@ -7,8 +9,8 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-color: #1d1d1d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
