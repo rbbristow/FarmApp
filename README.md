@@ -1,6 +1,8 @@
 # FarmApp
 An app to make farming easier!
 
+React JavaScript App.
+
 In the "farmapp" directory, you can run:
 
 ### `npm start`
