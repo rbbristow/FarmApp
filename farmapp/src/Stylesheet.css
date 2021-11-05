@@ -1,35 +1,47 @@
-.Header {
-  position: absolute;
-  top: 3%;
-  margin-left: 25%;
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  color: #fff;
+:root {
+  --primary: #032541;
+  --secondary: #21d07a;
+  --white: #fff;
 }
 
-.Title {
-  position: absolute;
+body {
   font-family: "Roboto", sans-serif;
-  margin-left: 10%;
-  width: 50%;
-  top: 0%;
+  padding: 0;
+  margin: 0;
+  background-color: #1d1d1d;
+  color: #fff
+}
+
+.header {
+  padding-bottom:80px;
+}
+
+.container {
+  padding: 3%;
+  text-align: center;
+}
+
+header .nav {
+}
+
+header .nav-links {
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight:bold;
+  font-size: 30px;
+  padding-inline: 3%;
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 10vmin;
   pointer-events: none;
-}
-
-.App {
-  background-color: #1d1d1d;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

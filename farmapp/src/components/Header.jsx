@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import logo from '../favicon.png'
 
-class Header extends React.Component {
-    render() { 
-        return <div className="Header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="Title">The Farm App</h1>
-        </div>
-        ;
+export const Header = () => {
+        return (
+            <header className="header">
+                    <div className="container">
+                        <nav>
+                            <ul className="nav-links">
+                                <li><img className="App-Logo" src={logo} className="App-logo" alt="logo" />                            </li>
+                                <li className="title">The Farm App</li>
+                            </ul>  
+                        </nav>                      
+                    </div>
+            </header>
+        )
     }
-}
  
 export default Header ;
 
