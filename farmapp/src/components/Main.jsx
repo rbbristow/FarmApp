@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Plot from './components/Plot';
 
-class Navigate extends React.Component {
+class Main extends React.Component {
     render() { 
-        return <div>
-        This is content
-        </div>
-        ;
+        return <div className="main">
+            Welcome to your farm!
+            <Plot/>
+        </div>;
     }
 }
  
-export default Navigate ;
+export default Main ;
 

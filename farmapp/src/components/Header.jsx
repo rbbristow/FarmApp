@@ -6,7 +6,7 @@ export const Header = () => {
             <header>
                     <div>
                             <ul className="nav-links">
-                                <li><img className="app-Logo" src={logo} className="App-logo" alt="logo" />                            </li>
+                                <li><img className="app-logo" src={logo} alt="logo" />                            </li>
                                 <li className="title">The Farm App</li>
                             </ul>                       
                     </div>
