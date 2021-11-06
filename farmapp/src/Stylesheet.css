@@ -12,40 +12,26 @@ body {
   color: #fff
 }
 
-.header {
-  padding-bottom:80px;
-}
-
-.container {
-  padding: 3%;
-  text-align: center;
-}
-
-header .nav {
-}
-
 header .nav-links {
   list-style: none;
+  text-align: center;
+  padding-top: 2%;
 }
 
 header li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .title {
   font-family: "Roboto", sans-serif;
   font-weight:bold;
   font-size: 30px;
-  padding-inline: 3%;
+  padding-inline: 1%;
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 7vmin;
   pointer-events: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 
