@@ -38,12 +38,25 @@ header li {
 .main {
   padding-top: 4%;
   padding-left: 30%;
-  padding-left: 30%;
+  padding-bottom: 2%;
   font-style: italic;
 }
 
-.plot {
-  p: 2;
-  border: '1px dashed grey';
+.plot-div {
+  text-align: center
 }
 
+.plot-grid {
+  display: inline-grid;
+  grid-gap: 50px 80px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+.grid-item {
+  border-style: dashed;
+  grid-row: span 6;
+  padding: 3%;
+  background-color: #ffffff;
+  border-color: rgb(103, 197, 108);
+  border-width: 2px;
+}
