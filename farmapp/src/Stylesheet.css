@@ -38,12 +38,13 @@ header li {
 .main {
   padding-top: 4%;
   padding-left: 30%;
+  padding-right: 30%;
   padding-bottom: 2%;
   font-style: italic;
 }
 
 .add-plot {
-  margin-left: 60%;
+  margin-left: 89%;
   padding: 1%;
   background-color: #aca357; 
   border-radius: 5px;
@@ -55,7 +56,7 @@ header li {
 }
 
 .add-plot:hover {
-  background-color: #948f62; 
+  background-color: #cac381; 
 }
 
 .plot-div {
@@ -64,42 +65,37 @@ header li {
 
 .plot-grid {
   display: inline-grid;
-  grid-gap: 50px 80px;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 50px 60px;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
 }
 
 .plot-grid-item {
   border-style: solid;
   border-radius: 10px;
-  grid-row: span 6;
   padding: 5%;
   background-color: #ffffff;
   border-color: rgb(151, 151, 151);
   border-width: 2px;
-  
   display: inline-grid;
-  grid-gap: 0px 15px;
-  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
 }
 
 .button-row {
   background-color: #85bd5f; 
   border-radius: 5px;
   border: none;
-  color: white;
-  width: 20px;
-  display: inline-block;
-  font-size: 16px;
-
+  height: 300px;
 }
 
 .button-row:hover {
-  background-color: #7baf67; 
+  background-color: #8ece64; 
 
 }
-.button-row-text {
-  color: rgb(68, 4, 4);
-  text-transform: uppercase;
+
+button span {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
   transform-origin: 0 0;
   transform: rotate(90deg);
 }
