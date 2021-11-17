@@ -6,16 +6,16 @@ class Plot extends React.Component {
             <div className="plot-div">
                 <div className="plot-grid">
                     <div class="plot-grid-item">
-                        <button className="button-row"><span className=".button-row-text">+</span></button>
+                        <button className="button-row"><span className=".button-row-text">test</span></button>
                         <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
-                        <button className="button-row"><p className=".button-row-text">pumpkin</p></button>
-                        <button className="button-row"><p className=".button-row-text">pumpkin</p></button>
-                        <button className="button-row"><p className=".button-row-text">pumpkin</p></button>
-                        <button className="button-row"><p className=".button-row-text">pumpkin</p></button>
-                        <button className="button-row"><p className=".button-row-text">pumpkin</p></button>
+                        <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
+                        <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
+                        <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
+                        <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
+                        <button className="button-row"><span className=".button-row-text">pumpkin</span></button>
                     </div>
                     <div class="plot-grid-item">
-                    <button className="button-row"><p className=".button-row-text">+</p></button>
+                        <button className="button-row"><span className=".button-row-text">test</span></button>
                     </div>
                     <div class="plot-grid-item">3</div>
                     <div class="plot-grid-item">4</div>

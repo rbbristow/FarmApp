@@ -1,15 +1,17 @@
 :root {
-  --primary: #032541;
-  --secondary: #21d07a;
-  --white: #fff;
+  --primary: #85bd5f;
+  --primary-alt: #8ece64;
+  --secondary: #e0b62a;
+  --secondary-alt: #ebc033;
+  --background-color: #2a2a2a;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #2a2a2a;
-  color: rgb(255, 255, 255)
+  background-color: var(--background-color);
+  color: white;
 }
 
 header .nav-links {
@@ -26,37 +28,38 @@ header li {
 .title {
   font-family: "Roboto", sans-serif;
   font-weight:bold;
-  font-size: 30px;
+  font-size: 35px;
   padding-inline: 1%;
 }
 
 .app-logo {
-  height: 7vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
 .main {
   padding-top: 4%;
-  padding-left: 30%;
-  padding-right: 30%;
-  padding-bottom: 2%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 3%;
   font-style: italic;
+  font-size: 25px;
 }
 
 .add-plot {
   margin-left: 89%;
   padding: 1%;
-  background-color: #aca357; 
+  background-color: var(--secondary); 
   border-radius: 5px;
   border: none;
   color: white;
   text-align: center;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .add-plot:hover {
-  background-color: #cac381; 
+  background-color: var(--secondary-alt); 
 }
 
 .plot-div {
@@ -66,7 +69,7 @@ header li {
 .plot-grid {
   display: inline-grid;
   grid-gap: 50px 60px;
-  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
 }
 
 .plot-grid-item {
@@ -77,18 +80,19 @@ header li {
   border-color: rgb(151, 151, 151);
   border-width: 2px;
   display: inline-grid;
-  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
 }
 
 .button-row {
-  background-color: #85bd5f; 
+  background-color: var(--primary); 
   border-radius: 5px;
   border: none;
   height: 300px;
+  text-align: center;
 }
 
 .button-row:hover {
-  background-color: #8ece64; 
+  background-color: var(--primary-alt); 
 
 }
 
@@ -96,6 +100,8 @@ button span {
   color: white;
   font-weight: bold;
   font-size: 16px;
-  transform-origin: 0 0;
-  transform: rotate(90deg);
+  position: absolute;
+  transform-origin: 0 0 1px 10px;
+  transform: rotate(270deg);
+  text-align: center;
 }
