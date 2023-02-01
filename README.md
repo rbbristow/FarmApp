@@ -1,5 +1,5 @@
 # FarmApp
-An app to make farming easier!
+Under construction 🏗️ An app to make farming easier!
 
 React JavaScript App.
 
